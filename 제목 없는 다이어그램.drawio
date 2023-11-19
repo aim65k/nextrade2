@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T22:28:42.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Yym_jmTDDh-fTatUii9l" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-19T22:29:57.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="PMD502MRnrRgPFopuL8Q" version="22.1.3" type="github" pages="3">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -352,7 +352,7 @@
           <mxGeometry x="620" y="-1230" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-17" value="influxdb" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="960" y="-1240" width="120" height="240" as="geometry" />
+          <mxGeometry x="960" y="-1200" width="120" height="200" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-20" value="Write&lt;br&gt;TMS Map" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="-1076" width="80" height="40" as="geometry" />
@@ -374,7 +374,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="A71bJquGVUWtjQhhRv-D-1" value="Aggregate&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="960" y="-1560" width="120" height="200" as="geometry" />
+          <mxGeometry x="960" y="-1560" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="A71bJquGVUWtjQhhRv-D-2" value="집계" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="980" y="-1460" width="80" height="40" as="geometry" />
@@ -395,7 +395,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4olEPygXTvZTB27B_KAC" name="Server side">
-    <mxGraphModel dx="2049" dy="2725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="2404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -617,10 +617,7 @@
           <mxGeometry y="8.75" width="120" height="81.25" as="geometry" />
         </mxCell>
         <mxCell id="i2BEkz4BUU52cBVTM151-37" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="465" y="-940" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="i2BEkz4BUU52cBVTM151-39" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#000000;" parent="i2BEkz4BUU52cBVTM151-37" vertex="1">
-          <mxGeometry y="30" width="10" height="10" as="geometry" />
+          <mxGeometry x="460" y="-960" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="i2BEkz4BUU52cBVTM151-187" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#000000;" parent="i2BEkz4BUU52cBVTM151-37" vertex="1">
           <mxGeometry x="-10" y="-20" width="10" height="10" as="geometry" />
@@ -717,7 +714,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="i2BEkz4BUU52cBVTM151-156" value="TMS&amp;nbsp;Server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="240" y="-1260" width="440" height="280" as="geometry" />
+          <mxGeometry x="240" y="-1260" width="440" height="260" as="geometry" />
         </mxCell>
         <mxCell id="i2BEkz4BUU52cBVTM151-157" value="Write&lt;br&gt;TMS Map" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="550" y="-1121.25" width="95" height="40" as="geometry" />
@@ -839,6 +836,9 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="265" y="-1143.75" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="i2BEkz4BUU52cBVTM151-39" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;fillColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="450" y="-945" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
