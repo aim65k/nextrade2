@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-19T09:04:14.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="VPYDnyG28ZbiSaIeqZ4E" version="22.1.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-11-19T09:10:05.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MOvdCfo9nMsuGMDhndOE" version="22.1.3" type="github" pages="2">
   <diagram id="K50HzqP1983Xo4ahEYI8" name="페이지-2">
     <mxGraphModel dx="1434" dy="2450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -175,11 +175,11 @@
             <mxPoint x="640" y="-1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TV0HbGdrIqkYkUSR5Z5r-9" value="&lt;h1 style=&quot;font-size: 20px;&quot;&gt;불합리한점&lt;/h1&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;1.초당수용건수가 명확하지 않다. (목표)-초당 몇건 수용&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;2.start-end 사이에 start-end가 또 있는 상황&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;3.FW와 APM 결합도가 너무 높다.&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;4.netty-&amp;gt;redis-&amp;gt;influxdb 이어지는 과정이 느릴수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;5.open source는 범용적인 사용에 특화되어있지, APM업무에 특화되있는것은 아니다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="TV0HbGdrIqkYkUSR5Z5r-9" value="&lt;h1 style=&quot;font-size: 20px;&quot;&gt;불합리한점&lt;/h1&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;1.초당수용건수가 명확하지 않다. (목표)-초당 몇건 수용&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;2.start-end 사이에 start-end가 또 있는 상황&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;3.netty-&amp;gt;redis-&amp;gt;influxdb 이어지는 과정이 느릴수 있다.&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;4.open source는 범용적인 사용에 특화되어있지, APM업무에 특화되 있는것은 아니다.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="-960" width="810" height="170" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-10" value="TMS&lt;br&gt;Map" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="760" y="-1560" width="120" height="320" as="geometry" />
+          <mxGeometry x="760" y="-1560" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-11" value="IFIDX Map" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="780" y="-1460" width="80" height="40" as="geometry" />
@@ -194,7 +194,7 @@
           <mxGeometry x="620" y="-1140" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-17" value="influxdb" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="960" y="-1240" width="120" height="250" as="geometry" />
+          <mxGeometry x="960" y="-1240" width="120" height="240" as="geometry" />
         </mxCell>
         <mxCell id="TV0HbGdrIqkYkUSR5Z5r-20" value="Write&lt;br&gt;TMS Sec Map" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="620" y="-1076" width="80" height="40" as="geometry" />
