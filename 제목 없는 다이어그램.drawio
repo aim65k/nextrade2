@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-20T00:26:57.304Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TRkEVWKgvjJ-Dsr1RZUu" version="22.1.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-20T00:35:04.387Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8BctwiWqqkHxZ1-XEEQW" version="22.1.3" type="github" pages="3">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1434" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -421,10 +421,10 @@
           <mxGeometry x="780" y="-1185.62" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lwXCy1WDRwdUIE5K2r92-54" value="influxdb" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="-1220" width="120" height="260" as="geometry" />
+          <mxGeometry x="1040" y="-1200" width="120" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lwXCy1WDRwdUIE5K2r92-58" value="Aggregate&lt;br&gt;Server" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontSize=20;fontStyle=1;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="-1560" width="120" height="220" as="geometry" />
+          <mxGeometry x="1040" y="-1560" width="120" height="240" as="geometry" />
         </mxCell>
         <mxCell id="lwXCy1WDRwdUIE5K2r92-60" value="집계" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="1060" y="-1480" width="80" height="40" as="geometry" />
