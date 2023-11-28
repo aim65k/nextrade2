@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T06:37:38.124Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="0oqPOaZLOhHyGrK8Y_j0" version="22.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-28T06:39:26.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="46c_JFWxTi4IJIiW5YWd" version="22.1.4" type="github" pages="5">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1195,7 +1195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2fMj75JwADEnuKJyUSaH" name="cfg과 thread간 관계">
-    <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1139" dy="650" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1210,7 +1210,7 @@
         <mxCell id="QI432i57XP2Vjl4x8Lfq-3" value="TMS agent -f tms.cfg -t &lt;font color=&quot;#ff0000&quot;&gt;ALL&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="319" y="80" width="200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="QI432i57XP2Vjl4x8Lfq-4" value="cfg 에 등록된 모든 &lt;br&gt;Thread 처리" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-4" value="cfg 에 등록된 모든 Thread 처리&lt;br&gt;UDP 는 recorvery 제외" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="145" width="233" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QI432i57XP2Vjl4x8Lfq-12" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="QI432i57XP2Vjl4x8Lfq-2" target="QI432i57XP2Vjl4x8Lfq-14">
