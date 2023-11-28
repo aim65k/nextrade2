@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T05:06:45.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vDYNd5_S-DlE53oLN-Cr" version="22.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-28T05:23:16.521Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="aHq6ZgcqKZZd9c0xdkb2" version="22.1.4" type="github" pages="5">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1320,7 +1320,7 @@
         <mxCell id="QI432i57XP2Vjl4x8Lfq-51" value="EMS 만 처리" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="559" y="645" width="233" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QI432i57XP2Vjl4x8Lfq-52" value="&lt;font color=&quot;#ff0000&quot;&gt;Recorvery&lt;/font&gt; 처리" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-52" value="&lt;font color=&quot;#ff0000&quot;&gt;recorvery&lt;/font&gt;&amp;nbsp;만 처리" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="559" y="705" width="233" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QI432i57XP2Vjl4x8Lfq-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QI432i57XP2Vjl4x8Lfq-30" target="QI432i57XP2Vjl4x8Lfq-50">
