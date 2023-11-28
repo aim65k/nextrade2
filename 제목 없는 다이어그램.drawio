@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T05:04:52.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="ZsrHkHy98pLFlQ_9u-M7" version="22.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-28T05:06:45.591Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="vDYNd5_S-DlE53oLN-Cr" version="22.1.4" type="github" pages="5">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1337,6 +1337,35 @@
             <mxPoint x="409" y="307" as="sourcePoint" />
             <mxPoint x="408.5" y="352" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-60" value="fms.cfg&lt;br&gt;&lt;br&gt;FMS&lt;br&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="800" width="80" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-63" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="QI432i57XP2Vjl4x8Lfq-60" target="QI432i57XP2Vjl4x8Lfq-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="980" as="sourcePoint" />
+            <mxPoint x="200" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QI432i57XP2Vjl4x8Lfq-65" target="QI432i57XP2Vjl4x8Lfq-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-65" value="shared&lt;br style=&quot;font-size: 14px;&quot;&gt;memory" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="163" y="800" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-70" value="1:1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="105" y="873" width="70" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QI432i57XP2Vjl4x8Lfq-81" target="QI432i57XP2Vjl4x8Lfq-82">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="529" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-81" value="TMS agent -f tms.cfg -t &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;ALL&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="319" y="840" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-82" value="cfg 에 등록된 Thread 전체 처리 + &lt;font color=&quot;#ff0000&quot;&gt;recorvery&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="559" y="845" width="233" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
