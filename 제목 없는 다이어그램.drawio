@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T06:56:05.648Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eDpSHRhaEkMjj7lzjpqr" version="22.1.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-11-28T06:56:17.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MZOt1NTL59JaGoDU6jZL" version="22.1.4" type="github" pages="5">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1139" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1299,8 +1299,8 @@
         <mxCell id="QI432i57XP2Vjl4x8Lfq-81" value="TMS agent -f fms.cfg -t &lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;ALL&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="319" y="800" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="QI432i57XP2Vjl4x8Lfq-82" value="cfg 에 등록된 Thread 전체 처리&lt;br&gt;&amp;nbsp; + &lt;font color=&quot;#ff0000&quot;&gt;recorvery&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="559" y="845" width="233" height="30" as="geometry" />
+        <mxCell id="QI432i57XP2Vjl4x8Lfq-82" value="cfg 에 등록된 Thread 처리&lt;br&gt;&amp;nbsp; + &lt;font color=&quot;#ff0000&quot;&gt;recorvery&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="559" y="845" width="153" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QI432i57XP2Vjl4x8Lfq-89" value="TSP thread" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="357" y="168.5" width="120" height="22.5" as="geometry" />
