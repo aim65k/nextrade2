@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T04:20:24.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FyZSvUwVUM5pVR1K27IC" version="22.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-01T04:24:41.321Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="6VUJMIp3XBhtJ1IwtfuP" version="22.1.5" type="github" pages="7">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1050" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1472,7 +1472,7 @@
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-6" value="run" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="giRqeu7jkyU2kBsGTJeL-1" value="1. Agent별 Alarm/TCP/UDP 처리 함수 등록&lt;br&gt;2. Log thread 생성&lt;br&gt;3. Stat thread 생성" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-1" value="1. Agent별 Alarm/TCP/UDP 처리 함수 등록&lt;br&gt;2. Log thread 생성&lt;br&gt;3. Stat thread 생성&lt;br&gt;4. Recovery thread 생성" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="390" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="giRqeu7jkyU2kBsGTJeL-2" value="1.shared memory 생성&lt;br&gt;2.mutex, condition 생성&lt;br&gt;3.log 관련정보 초기화" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1480,6 +1480,24 @@
         </mxCell>
         <mxCell id="giRqeu7jkyU2kBsGTJeL-5" value="1.COMMON, AGENT cfg load" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="280" y="240" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-9" value="log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-11" value="fms.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-12" value="pms.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-13" value="dms.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-14" value="tms.c" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-15" value="log" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="600" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
