@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T04:20:04.446Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UWWLw5IrXKYAXjtfqR0a" version="22.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-01T04:20:24.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="FyZSvUwVUM5pVR1K27IC" version="22.1.5" type="github" pages="7">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1050" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1451,11 +1451,20 @@
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-2" value="인자 처리" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="160" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Obdf28cB1MMh4Yd3xz7-3" target="giRqeu7jkyU2kBsGTJeL-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-3" value="load configure" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="240" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Obdf28cB1MMh4Yd3xz7-4" target="giRqeu7jkyU2kBsGTJeL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-4" value="create IPC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="giRqeu7jkyU2kBsGTJeL-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Obdf28cB1MMh4Yd3xz7-5" target="giRqeu7jkyU2kBsGTJeL-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-5" value="create THREADS&lt;br&gt;(TCP, UDP,&amp;nbsp; Alarm)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="160" height="40" as="geometry" />
