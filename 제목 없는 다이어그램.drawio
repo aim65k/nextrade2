@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-01T04:26:18.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="20e-Ogh5KQbIBoJFp31z" version="22.1.5" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-12-01T04:26:32.010Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9NnJ2HFrgAb_prw9vCCh" version="22.1.5" type="github" pages="7">
   <diagram id="d7shCx91Y5sczbDm3955" name="Dash Board">
     <mxGraphModel dx="1050" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -1469,7 +1469,7 @@
         <mxCell id="9Obdf28cB1MMh4Yd3xz7-5" value="create THREADS&lt;br&gt;(TCP, UDP,&amp;nbsp; Alarm)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="400" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9Obdf28cB1MMh4Yd3xz7-6" value="run" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="9Obdf28cB1MMh4Yd3xz7-6" value="amRun" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="480" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="giRqeu7jkyU2kBsGTJeL-1" value="1. Agent별 Alarm/TCP/UDP 처리 함수 등록&lt;br&gt;2. Log thread 생성&lt;br&gt;3. Stat thread 생성&lt;br&gt;4. Recovery thread 생성" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
